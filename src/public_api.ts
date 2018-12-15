@@ -1,1 +1,1 @@
-export * from './ngx-from-now.module'
+export * from './ngx-safe-pipe.module'

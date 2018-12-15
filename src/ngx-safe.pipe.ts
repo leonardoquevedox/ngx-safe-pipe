@@ -6,14 +6,13 @@
  */
 
 
-import { Pipe, PipeTransform } from '@angular/core'
+import { Pipe } from '@angular/core'
 import { DomSanitizer } from '@angular/platform-browser'
-import { SafeHtml, SafeStyle } from '@angular/platform-browser'
 
 @Pipe({
     name: 'safe'
 })
-export class SafePipe {
+export class NgxSafePipe {
     constructor(private sanitized: DomSanitizer) { }
 
     transform(value, type): any {

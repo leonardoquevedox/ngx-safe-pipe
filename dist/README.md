@@ -1,6 +1,6 @@
-# Ngx-credit-card-br
+# Ngx-safety-pipe
 
-> Ngx-credit-card-br is an ultra simple cnpj validator for Angular.io.
+> Ngx-safety-pipe is an ultra simple cnpj validator for Angular.io.
 
 [![basic-merchandising](https://imgur.com/LNOYczf.png)](https://github.com/leopq)
 
@@ -9,24 +9,24 @@
 ## Installing
 
 ```sh
-$ npm install --save ngx-credit-card-br
+$ npm install --save ngx-safety-pipe
 ```
 
 ## Quickstart
 
 #### Import
 
-Import **ngx-credit-card-br** module in Angular app.
+Import **ngx-safety-pipe** module in Angular app.
 
 ```typescript
-import { NgxCreditCardBr } from 'ngx-credit-card-br'
+import { NgxSafetyPipe } from 'ngx-safety-pipe'
 
 (...)
 
 @NgModule({
   (...)
   imports: [
-    NgxCreditCardBr.forRoot()
+    NgxSafetyPipe
   ]
   (...)
 })
@@ -34,12 +34,9 @@ import { NgxCreditCardBr } from 'ngx-credit-card-br'
 
 #### Usage
 
-In your template, you can declare the ngx-credit-card-br as the following:
+In your template, you can declare the ngx-safety-pipe as the following:
 ```html
-<form>
-    <!-- Input with the CPF validator -->
-    <input type="tel" ngx-cnpj [(ngModel)]="user.cnpj" name="userCnpj" #cnpjInput >
-</form>
+WIP
 
 ```
 

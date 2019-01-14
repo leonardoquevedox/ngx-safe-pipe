@@ -1,13 +1,13 @@
-import { CommonModule } from '@angular/common';
-import { Pipe, NgModule } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import { Pipe, NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-var NgxSafePipe = /** @class */ (function () {
-    function NgxSafePipe(sanitized) {
+var NgxSafetyPipe = /** @class */ (function () {
+    function NgxSafetyPipe(sanitized) {
         this.sanitized = sanitized;
     }
     /**
@@ -15,7 +15,7 @@ var NgxSafePipe = /** @class */ (function () {
      * @param {?} type
      * @return {?}
      */
-    NgxSafePipe.prototype.transform = /**
+    NgxSafetyPipe.prototype.transform = /**
      * @param {?} value
      * @param {?} type
      * @return {?}
@@ -30,33 +30,33 @@ var NgxSafePipe = /** @class */ (function () {
                 return this.sanitized.bypassSecurityTrustStyle(value);
         }
     };
-    NgxSafePipe.decorators = [
+    NgxSafetyPipe.decorators = [
         { type: Pipe, args: [{
                     name: 'safe'
                 },] }
     ];
     /** @nocollapse */
-    NgxSafePipe.ctorParameters = function () { return [
+    NgxSafetyPipe.ctorParameters = function () { return [
         { type: DomSanitizer }
     ]; };
-    return NgxSafePipe;
+    return NgxSafetyPipe;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-var NgxSafePipeModule = /** @class */ (function () {
-    function NgxSafePipeModule() {
+var NgxSafetyPipeModule = /** @class */ (function () {
+    function NgxSafetyPipeModule() {
     }
-    NgxSafePipeModule.decorators = [
+    NgxSafetyPipeModule.decorators = [
         { type: NgModule, args: [{
                     imports: [CommonModule],
-                    declarations: [NgxSafePipe],
-                    exports: [NgxSafePipe]
+                    declarations: [NgxSafetyPipe],
+                    exports: [NgxSafetyPipe]
                 },] }
     ];
-    return NgxSafePipeModule;
+    return NgxSafetyPipeModule;
 }());
 
 /**
@@ -69,6 +69,6 @@ var NgxSafePipeModule = /** @class */ (function () {
  * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { NgxSafePipeModule, NgxSafePipe as ɵa };
+export { NgxSafetyPipe, NgxSafetyPipeModule };
 
-//# sourceMappingURL=ngx-bank-account-br.js.map
+//# sourceMappingURL=ngx-safety-pipe.js.map

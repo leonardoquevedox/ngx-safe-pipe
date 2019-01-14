@@ -3,5 +3,5 @@
  * @author Leonardo Quevedo
  * @description Directive module.
  */
-export declare class NgxSafePipeModule {
+export declare class NgxSafetyPipeModule {
 }

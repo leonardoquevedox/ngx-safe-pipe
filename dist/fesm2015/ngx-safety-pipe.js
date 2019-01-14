@@ -1,12 +1,12 @@
-import { CommonModule } from '@angular/common';
-import { Pipe, NgModule } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import { Pipe, NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-class NgxSafePipe {
+class NgxSafetyPipe {
     /**
      * @param {?} sanitized
      */
@@ -29,13 +29,13 @@ class NgxSafePipe {
         }
     }
 }
-NgxSafePipe.decorators = [
+NgxSafetyPipe.decorators = [
     { type: Pipe, args: [{
                 name: 'safe'
             },] }
 ];
 /** @nocollapse */
-NgxSafePipe.ctorParameters = () => [
+NgxSafetyPipe.ctorParameters = () => [
     { type: DomSanitizer }
 ];
 
@@ -43,13 +43,13 @@ NgxSafePipe.ctorParameters = () => [
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-class NgxSafePipeModule {
+class NgxSafetyPipeModule {
 }
-NgxSafePipeModule.decorators = [
+NgxSafetyPipeModule.decorators = [
     { type: NgModule, args: [{
                 imports: [CommonModule],
-                declarations: [NgxSafePipe],
-                exports: [NgxSafePipe]
+                declarations: [NgxSafetyPipe],
+                exports: [NgxSafetyPipe]
             },] }
 ];
 
@@ -63,6 +63,6 @@ NgxSafePipeModule.decorators = [
  * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { NgxSafePipeModule, NgxSafePipe as ɵa };
+export { NgxSafetyPipe, NgxSafetyPipeModule };
 
-//# sourceMappingURL=ngx-bank-account-br.js.map
+//# sourceMappingURL=ngx-safety-pipe.js.map

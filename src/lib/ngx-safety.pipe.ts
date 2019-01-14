@@ -12,7 +12,7 @@ import { DomSanitizer } from '@angular/platform-browser'
 @Pipe({
     name: 'safe'
 })
-export class NgxSafePipe {
+export class NgxSafetyPipe {
     constructor(private sanitized: DomSanitizer) { }
 
     transform(value, type): any {

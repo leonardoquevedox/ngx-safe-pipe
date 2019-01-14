@@ -6,11 +6,11 @@
 
 import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
-import { NgxSafePipe } from './ngx-safe.pipe'
+import { NgxSafetyPipe } from './ngx-safety.pipe'
 
 @NgModule({
     imports: [CommonModule],
-    declarations: [NgxSafePipe],
-    exports: [NgxSafePipe]
+    declarations: [NgxSafetyPipe],
+    exports: [NgxSafetyPipe]
 })
-export class NgxSafePipeModule { }
+export class NgxSafetyPipeModule { }

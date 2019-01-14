@@ -5,7 +5,7 @@
  * @description Angular safety pipe.
  */
 import { DomSanitizer } from '@angular/platform-browser';
-export declare class NgxSafePipe {
+export declare class NgxSafetyPipe {
     private sanitized;
     constructor(sanitized: DomSanitizer);
     transform(value: any, type: any): any;

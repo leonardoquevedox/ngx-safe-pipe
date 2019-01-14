@@ -1,6 +1,6 @@
 {
     "name": "ngx-safety-pipe",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0-rc2",
     "description": "Address autocomplete directive for Angular.io (2+).",
     "main": "index.js",
     "scripts": {

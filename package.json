@@ -1,7 +1,7 @@
 {
     "name": "ngx-safety-pipe",
-    "version": "1.0.0-rc2",
-    "description": "Address autocomplete directive for Angular.io (2+).",
+    "version": "1.0.0",
+    "description": "Safe resource, html and styles pipe for Angular.io.",
     "main": "index.js",
     "scripts": {
         "ng": "ng",
@@ -11,8 +11,8 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "prepublish": "npm run packagr",
-        "packagr": "ng-packagr -p ng-package.json",
-        "publish": "npm publish dist"
+        "publish": "npm publish dist",
+        "packagr": "ng-packagr -p ng-package.json"
     },
     "repository": {
         "type": "git",

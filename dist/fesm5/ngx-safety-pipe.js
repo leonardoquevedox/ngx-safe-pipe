@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var NgxSafetyPipe = /** @class */ (function () {
     function NgxSafetyPipe(sanitized) {
@@ -35,7 +35,6 @@ var NgxSafetyPipe = /** @class */ (function () {
                     name: 'safe'
                 },] }
     ];
-    /** @nocollapse */
     NgxSafetyPipe.ctorParameters = function () { return [
         { type: DomSanitizer }
     ]; };
@@ -44,7 +43,7 @@ var NgxSafetyPipe = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var NgxSafetyPipeModule = /** @class */ (function () {
     function NgxSafetyPipeModule() {
@@ -61,12 +60,12 @@ var NgxSafetyPipeModule = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
 export { NgxSafetyPipe, NgxSafetyPipeModule };

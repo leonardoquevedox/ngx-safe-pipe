@@ -1,6 +1,6 @@
 {
   "name": "ngx-safety-pipe",
-  "version": "1.0.0-rc20",
+  "version": "1.0.0-rc21",
   "description": "Safe resource, html and styles pipe for Angular.io.",
   "main": "bundles/ngx-safety-pipe.umd.js",
   "repository": {

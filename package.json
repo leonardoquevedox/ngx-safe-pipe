@@ -1,6 +1,6 @@
 {
   "name": "ngx-safety-pipe",
-  "version": "1.0.0-rc24",
+  "version": "1.0.0-rc26",
   "description": "Safe resource, html and styles pipe for Angular.io.",
   "main": "index.js",
   "scripts": {
